@@ -1,0 +1,18 @@
+@import "colors";
+
+.primary-footer {
+	background-color: $hoki-blue;
+  padding-bottom: 44px;
+  padding-top: 22px;
+	margin-top: 10%;
+	a {
+		color: $blue-primary;
+		&:hover {
+			color: #1990B5;
+		}
+	}
+}
+
+.primary-footer small {
+	float: left;
+}

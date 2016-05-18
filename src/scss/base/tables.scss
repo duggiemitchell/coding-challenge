@@ -1,0 +1,43 @@
+@import "colors";
+@import "typography";
+
+.tables {
+  padding-top: 50px;
+  @media (max-width: 876px) {
+    top: -500px;
+}
+  position: relative;
+  top: -300px;
+  table {
+    margin-bottom: 0;
+  }
+  td:first-child{
+    padding-left: 10px;
+  }
+  tr:first-child {
+    font-size: $h6-size;
+    font-weight: $normal;
+  }
+  small {
+    font-weight: $light;
+    color: #95A5A6;
+    font-size: small;
+    span:first-child {
+      padding-right: 200px;
+    }
+  }
+}
+
+tbody, tr {
+  &:nth-child(even) {
+  background-color: $ocean-green;
+  }
+}
+@media (max-width: 550px) {
+  div,
+  section,
+  aside {
+    display: block;
+  }
+
+}
