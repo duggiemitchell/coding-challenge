@@ -1,7 +1,7 @@
 $(function() {
 
   $('.tab-links a').on('click', function(e) {
-    $('.tab-links a').removeClass('active');
+    $('.tab-links .activr').removeClass('active');
     $(this).addClass('active');
     $('.tab active').toggle();
     e.preventDefault();
@@ -24,3 +24,6 @@ $(function() {
           modal.style.display = "none";
       }
   }
+var activeTab = document.getElementsByClassName('tab-link');
+console.log(activeTab);
+var category = document.getElementsByClassName('tab');
