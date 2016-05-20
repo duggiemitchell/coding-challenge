@@ -14,17 +14,16 @@
   td:first-child{
     padding-left: 10px;
   }
-  tr:first-child {
+  tr:nth-child(2) {
     font-size: $h6-size;
     font-weight: $normal;
   }
-  small {
+  th {
+    background-color: #fff;
+    small {
     font-weight: $light;
     color: #95A5A6;
     font-size: small;
-    span:first-child {
-      padding-right: 200px;
-    }
   }
 }
 
@@ -39,5 +38,5 @@ tbody, tr {
   aside {
     display: block;
   }
-
+ }
 }
