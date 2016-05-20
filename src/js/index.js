@@ -9,7 +9,9 @@ $(function() {
   });
 
   $.get('code-test.json', function(response) {
+    // response.earnings = numeral(customer.earnings).format('$0.00');
     $.each(response, function(index, customer) {
+      customer.earnings = numeral(customer.earnings).format('$0.00');
       response.sort(function(a, b) {
         if (a.earnings > b.earnings)
           return -1;
