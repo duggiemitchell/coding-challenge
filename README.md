@@ -3,7 +3,9 @@
 
 * [NPM](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm)
 * [Gulp](http://gulpjs.com/)
-* [LibSass](http://sass-lang.com/libsass) (I used [node-sass](https://github.com/sass/node-sass)).
+
+* [LibSass](http://sass-lang.com/libsass)...I used [node-sass](https://github.com/sass/node-sass)).
+>>>>>>> c39c52d8df01e73ea2a3a372a2b5e782fcec9d83
 
 
 1.  Clone this repo with `git clone https://github.com/duggiemitchell/coding-challenge.git`
