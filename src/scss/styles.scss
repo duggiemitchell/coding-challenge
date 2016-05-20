@@ -41,19 +41,20 @@
 .logo {
   text-transform: uppercase;
   float: left;
-  font-size: $h3-size;
+  font-size: $h5-size;
   font-weight: $bold;
   letter-spacing: .5px;
   margin: 0;
   padding: 0;
   img {
     height: 30px;
+    color: $blue-dark;
   }
   }
 }
 
 .hero {
-  overflow: auto;
+  overflow: hidden;
   margin-top: 5%;
   h1 {
     color: $plumtastic;
